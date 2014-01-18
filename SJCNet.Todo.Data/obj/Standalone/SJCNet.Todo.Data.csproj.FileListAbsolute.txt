@@ -1,0 +1,12 @@
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\bin\Standalone\SJCNet.Todo.Data.dll.config
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\bin\Standalone\SJCNet.Todo.Data.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\bin\Standalone\SJCNet.Todo.Data.pdb
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\bin\Standalone\EntityFramework.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\bin\Standalone\SJCNet.Todo.Model.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\bin\Standalone\System.Data.SqlServerCe.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\bin\Standalone\System.Data.SqlServerCe.Entity.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\bin\Standalone\SJCNet.Todo.Model.pdb
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\bin\Standalone\EntityFramework.xml
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\obj\Standalone\SJCNet.Todo.Data.csprojResolveAssemblyReference.cache
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\obj\Standalone\SJCNet.Todo.Data.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Data\obj\Standalone\SJCNet.Todo.Data.pdb

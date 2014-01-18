@@ -1,0 +1,11 @@
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\bin\Standalone\SJCNet.Todo.Test.Common.dll.config
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\bin\Standalone\SJCNet.Todo.Test.Common.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\bin\Standalone\SJCNet.Todo.Test.Common.pdb
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\bin\Standalone\EntityFramework.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\bin\Standalone\SJCNet.Todo.Data.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\bin\Standalone\SJCNet.Todo.Model.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\bin\Standalone\SJCNet.Todo.Data.pdb
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\bin\Standalone\SJCNet.Todo.Model.pdb
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\bin\Standalone\EntityFramework.xml
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\obj\Standalone\SJCNet.Todo.Test.Common.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Test.Common\obj\Standalone\SJCNet.Todo.Test.Common.pdb

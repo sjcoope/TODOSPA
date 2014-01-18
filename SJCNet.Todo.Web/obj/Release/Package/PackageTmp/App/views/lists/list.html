@@ -1,0 +1,20 @@
+﻿<div>
+    <div class="header">
+        <span class="title1">Lists</span>
+        <button type="submit" class="btn btn-primary btn-xs push-right" data-bind="click: addList">
+            <i class="icon-plus"></i>
+        </button>
+        <span class="push-clear"></span>
+    </div>
+    
+    <div id="taskListContainer">
+        <ul class="nav nav-pills" data-bind="foreach: todoLists">
+            <li>
+                <a class="taskListItem" data-bind="attr: { href: '#/lists/' + id() }">
+                    <span class="tasklist-item-title" data-bind="text: name()"></span>
+                    <span class="badge tasklist-item-badge" data-bind="text: $data.items().length"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

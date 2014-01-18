@@ -1,0 +1,4 @@
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Model\bin\Release\SJCNet.Todo.Model.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Model\bin\Release\SJCNet.Todo.Model.pdb
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Model\obj\Release\SJCNet.Todo.Model.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Model\obj\Release\SJCNet.Todo.Model.pdb

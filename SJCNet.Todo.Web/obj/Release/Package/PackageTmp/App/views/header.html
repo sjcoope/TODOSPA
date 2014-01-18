@@ -1,0 +1,25 @@
+﻿<div class="col-md-8">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="row" data-bind="visible: unitofwork.hasChanges()">
+        <div class="col-md-5"></div>
+        <div class=" col-md-7 col-md-pad-vertical">
+            <div class="panel panel-danger">
+                <div class="panel-heading panel-heading-sm">
+                    <i class="icon-warning-sign"></i>&nbsp;Unsaved changes detected
+                </div>
+                <div class="panel-body panel-body-center">
+                    <button type="button" class="btn btn-xs btn-success" data-bind="enabled: unitofwork.isSaving(), click: saveChanges">
+                        <i class="icon-ok"></i>&nbsp;Save
+                    </button>
+                    <button type="button" class="btn btn-xs btn-danger" data-bind="enabled: unitofwork.isSaving(), click: cancelChanges">
+                        <i class="icon-remove"></i>&nbsp;Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+﻿<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <!-- ko compose:
+            {
+                model: 'viewmodels/header',
+                activate: true
+            } -->
+        <!--/ko-->
+    </div>
+</nav>
+
+<div class="container main-content">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="well">
+                <!-- ko compose:
+                {
+                    model: 'viewmodels/lists/list',
+                    activate: true
+                } -->
+                <!-- /ko-->
+            </div>
+        </div>
+        <div class="col-md-9">
+            <!--ko router:
+                {
+                    transition:'entrance',
+                    cacheViews:true
+                }-->
+            <!--/ko-->
+        </div>
+    </div>
+    <div class="progress-overlay" data-bind="visible: showProgress"></div>
+    <div class="progress-container page-splash well" data-bind="visible: showProgress">
+        <div class="page-splash-message">
+            Working...
+        </div>
+        <div class="progress progress-striped active page-progress-bar">
+            <div class="progress-bar" style="width: 100%"></div>
+        </div>
+    </div>
+</div>

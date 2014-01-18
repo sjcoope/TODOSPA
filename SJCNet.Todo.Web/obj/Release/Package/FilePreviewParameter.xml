@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="sjcnettodo" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\simon_000\\Documents\\Source\\Workspaces\\SJCNet\.TODO\\SJCNet\.Todo\\SJCNet\.Todo\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\simon_000\\Documents\\Source\\Workspaces\\SJCNet\.TODO\\SJCNet\.Todo\\SJCNet\.Todo\.Web\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="SJCNet.Todo.Data.TodoDbContext-Web.config Connection String" description="" value="Server=tcp:q75keladrr.database.windows.net,1433;Database=Todo;User ID=TodoWebUser@q75keladrr;Password=T0D0W3bU5r;Trusted_Connection=False;Encrypt=True;Connection Timeout=30" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\simon_000\\Documents\\Source\\Workspaces\\SJCNet\.TODO\\SJCNet\.Todo\\SJCNet\.Todo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SJCNet.Todo.Data.TodoDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="TodoDb-Web.config Connection String" description="" value="data source=./;initial catalog=Todo;user id=TodoWebUser;password=T0D0W3bU5r" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\simon_000\\Documents\\Source\\Workspaces\\SJCNet\.TODO\\SJCNet\.Todo\\SJCNet\.Todo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TodoDb']/@connectionString" />
+  </parameter>
+</parameters>

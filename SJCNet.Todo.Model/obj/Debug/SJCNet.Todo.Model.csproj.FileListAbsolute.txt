@@ -1,0 +1,10 @@
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Model\bin\Debug\SJCNet.Todo.Model.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Model\bin\Debug\SJCNet.Todo.Model.pdb
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Model\obj\Debug\SJCNet.Todo.Model.dll
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Model\obj\Debug\SJCNet.Todo.Model.pdb
+C:\Users\simon_000\Documents\Source\Workspaces\SJCNet.TODO\SJCNet.Todo\SJCNet.Todo.Model\obj\Debug\SJCNet.Todo.Model.csprojResolveAssemblyReference.cache
+C:\Users\simon_000\Documents\GitHub\TODOSPA\SJCNet.Todo.Model\bin\Debug\SJCNet.Todo.Model.dll
+C:\Users\simon_000\Documents\GitHub\TODOSPA\SJCNet.Todo.Model\bin\Debug\SJCNet.Todo.Model.pdb
+C:\Users\simon_000\Documents\GitHub\TODOSPA\SJCNet.Todo.Model\obj\Debug\SJCNet.Todo.Model.csprojResolveAssemblyReference.cache
+C:\Users\simon_000\Documents\GitHub\TODOSPA\SJCNet.Todo.Model\obj\Debug\SJCNet.Todo.Model.dll
+C:\Users\simon_000\Documents\GitHub\TODOSPA\SJCNet.Todo.Model\obj\Debug\SJCNet.Todo.Model.pdb

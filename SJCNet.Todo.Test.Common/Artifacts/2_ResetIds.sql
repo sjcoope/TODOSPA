@@ -1,0 +1,7 @@
+﻿DECLARE @Reseed int = 0
+
+DBCC CHECKIDENT('TodoList', RESEED, @Reseed)
+DBCC CHECKIDENT('TodoList', RESEED)
+
+DBCC CHECKIDENT('TodoItem', RESEED, @Reseed)
+DBCC CHECKIDENT('TodoItem', RESEED)

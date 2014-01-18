@@ -1,0 +1,130 @@
+﻿<h3>Dashboard</h3>
+<div class="row viewList">
+    <div class="col-xs-3">
+        <a class="dataViewItem well" data-bind="attr: { href: '#/dataview/overdue' }">
+            <span class="title2">Overdue</span>
+            <table class="table">
+                <tr>
+                    <td class="success">Completed</td>
+                    <td class="success" data-bind="text: overdueCompletedTasks().length"></td>
+                </tr>
+                <tr>
+                    <td class="danger">Outstanding</td>
+                    <td class="danger" data-bind="text: overdueOutstandingTasks().length"></td>
+                </tr>
+            </table>
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a class="dataViewItem well" data-bind="attr: { href: '#/dataview/today' }">
+            <span class="title2">Today</span>
+            <table class="table">
+                <tr>
+                    <td class="success">Completed</td>
+                    <td class="success" data-bind="text: todaysCompletedTasks().length"></td>
+                </tr>
+                <tr>
+                    <td class="danger">Outstanding</td>
+                    <td class="danger" data-bind="text: todaysOutstandingTasks().length"></td>
+                </tr>
+            </table>
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a class="dataViewItem well" data-bind="attr: { href: '#/dataview/tomorrow' }">
+            <span class="title2">Tomorrow</span>
+            <table class="table">
+                <tr>
+                    <td class="success">Completed</td>
+                    <td class="success" data-bind="text: tomorrowsCompletedTasks().length"></td>
+                </tr>
+                <tr>
+                    <td class="danger">Outstanding</td>
+                    <td class="danger" data-bind="text: tomorrowsOutstandingTasks().length"></td>
+                </tr>
+            </table>
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a class="dataViewItem well" data-bind="attr: { href: '#/dataview/week' }">
+            <span class="title2">This Week</span>
+            <table class="table">
+                <tr>
+                    <td class="success">Completed</td>
+                    <td class="success" data-bind="text: weeksCompletedTasks().length"></td>
+                </tr>
+                <tr>
+                    <td class="danger">Outstanding</td>
+                    <td class="danger" data-bind="text: weeksOutstandingTasks().length"></td>
+                </tr>
+            </table>
+        </a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <a class="dataViewItem well" data-bind="attr: { href: '#/dataview/high' }">
+            <span class="title2">High Priority</span>
+            <table class="table">
+                <tr>
+                    <td class="success">Completed</td>
+                    <td class="success" data-bind="text: highPriorityCompletedTasks().length"></td>
+                </tr>
+                <tr>
+                    <td class="danger">Outstanding</td>
+                    <td class="danger" data-bind="text: highPriorityOutstandingTasks().length"></td>
+                </tr>
+            </table>
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a class="dataViewItem well" data-bind="attr: { href: '#/dataview/high' }">
+            <span class="title2">Medium Priority</span>
+            <table class="table">
+                <tr>
+                    <td class="success">Completed</td>
+                    <td class="success" data-bind="text: mediumPriorityCompletedTasks().length"></td>
+                </tr>
+                <tr>
+                    <td class="danger">Outstanding</td>
+                    <td class="danger" data-bind="text: mediumPriorityOutstandingTasks().length"></td>
+                </tr>
+            </table>
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a class="dataViewItem well" data-bind="attr: { href: '#/dataview/low' }">
+            <span class="title2">Low Priority</span>
+            <table class="table">
+                <tr>
+                    <td class="success">Completed</td>
+                    <td class="success" data-bind="text: lowPriorityCompletedTasks().length"></td>
+                </tr>
+                <tr>
+                    <td class="danger">Outstanding</td>
+                    <td class="danger" data-bind="text: lowPriorityOutstandingTasks().length"></td>
+                </tr>
+            </table>
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a class="dataViewItem well" data-bind="attr: { href: '#/dataview/none' }">
+            <span class="title2">No Priority</span>
+            <table class="table">
+                <tr>
+                    <td class="success">Completed</td>
+                    <td class="success" data-bind="text: noPriorityCompletedTasks().length"></td>
+                </tr>
+                <tr>
+                    <td class="danger">Outstanding</td>
+                    <td class="danger" data-bind="text: noPriorityOutstandingTasks().length"></td>
+                </tr>
+            </table>
+        </a>
+    </div>
+</div>
+
+<div data-bind="text: todaysTasks().length"></div>
+<div data-bind="text: weeksTasks().length"></div>
+<div data-bind="text: highPriorityTasks().length"></div>
+<div data-bind="text: lowPriorityTasks().length"></div>

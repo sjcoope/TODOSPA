@@ -1,0 +1,3 @@
+﻿DELETE FROM TodoItem
+DELETE FROM TodoList
+DELETE FROM TodoPriority

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="TodoDb-Web.config Connection String" description="TodoDb Connection String used in web.config by the application to access the database." defaultValue="data source=./;initial catalog=Todo;user id=TodoWebUser;password=T0D0W3bU5r" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\simon_000\\Documents\\Source\\Workspaces\\SJCNet\.TODO\\SJCNet\.Todo\\SJCNet\.Todo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TodoDb']/@connectionString" />
+  </parameter>
+  <parameter name="SJCNet.Todo.Data.TodoDbContext-Web.config Connection String" description="SJCNet.Todo.Data.TodoDbContext Connection String used in web.config by the application to access the database." defaultValue="SJCNet.Todo.Data.TodoDbContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\simon_000\\Documents\\Source\\Workspaces\\SJCNet\.TODO\\SJCNet\.Todo\\SJCNet\.Todo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SJCNet.Todo.Data.TodoDbContext']/@connectionString" />
+  </parameter>
+</parameters>

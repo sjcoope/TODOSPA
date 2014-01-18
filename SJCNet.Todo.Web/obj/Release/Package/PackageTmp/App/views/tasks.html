@@ -1,0 +1,8 @@
+﻿<p>Tasks</p>
+<span data-bind="text: todoItems().length" />
+<div data-bind="foreach: todoItems">
+    <div>
+        <span>Description: </span>
+        <span data-bind="text: description"></span>
+    </div>
+</div>

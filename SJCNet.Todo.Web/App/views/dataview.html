@@ -1,0 +1,50 @@
+﻿<div class="panel panel-default">
+    <div class="panel-heading title1">
+        <div class="col-md-10" data-bind="text: title"></div>
+        <div class="push-clear"></div>
+    </div>
+    <div class="panel-body">
+        <table class="table table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th class="span2">&nbsp;</th>
+                    <th>Description</th>
+                    <th>List</th>
+                    <th class="span2">Due Date</th>
+                    <th class="span2">Priority</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: todoItems()">
+                <tr>
+                    <td>
+                        <button type="submit" class="btn btn-primary btn-xs" data-bind="click: $root.completeTodoItem.bind($data)">
+                            <i data-bind="visible: completed()" class="icon-thumbs-up"></i>
+                            <i data-bind="hidden: completed()" class="icon-thumbs-down"></i>
+                        </button>
+                        <button class="btn btn-primary btn-xs" data-bind="click: $root.removeItem.bind($data)">
+                            <i class="icon-remove"></i>
+                        </button>
+                    </td>
+                    <td data-bind="inlineEditor: description"></td>
+                    <td data-bind="text: listName"></td>
+                    <td data-bind="inlineEditor:  dueDateText">
+                        <span class="editorValue"></span>
+                        <input type="text" placeholder="dd/mm/yyyy" data-type="date" class="editorInput" />
+                    </td>
+                    <td data-bind="inlineEditor:  priorityText">
+                        <span class="editorValue"></span>
+                        <select class="editorInput" data-bind="options: $root.todoPriorities, optionsText: 'name', value: priority"></select>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td colspan="3" data-bind="hidden: hasItems">
+                        No todo items exist...
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

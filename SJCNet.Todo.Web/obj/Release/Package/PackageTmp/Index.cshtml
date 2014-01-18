@@ -1,0 +1,19 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div id="applicationHost">
+        @RenderPage("_splash.cshtml")
+    </div>
+
+    @Scripts.Render("~/Scripts/vendor")
+    @Scripts.Render("~/Scripts/app")
+
+    <script type="text/javascript" src="Scripts/require.js" data-main="App/main"></script>
+</body>
+</html>

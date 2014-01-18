@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.Todo.Web", "SJCNet.Todo.Web\SJCNet.Todo.Web.csproj", "{2AA9566B-325C-4222-984D-9A640344E295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.Todo.Model", "SJCNet.Todo.Model\SJCNet.Todo.Model.csproj", "{82E9B296-D4FA-480A-AAEF-F40D7727574D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6CE46985-CE40-4729-B760-86F04DBD4793}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C2926433-6F92-4646-995D-91700E0BB643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.Todo.Data", "SJCNet.Todo.Data\SJCNet.Todo.Data.csproj", "{B3543CD9-4F95-423A-B7FE-4C54F4E4ABB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.Todo.Data.Repository", "SJCNet.Todo.Data.Repository\SJCNet.Todo.Data.Repository.csproj", "{D8AEA284-4761-4971-A476-27194B37B9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.Todo.Data.Uow", "SJCNet.Todo.Data.Uow\SJCNet.Todo.Data.Uow.csproj", "{34209DA7-160F-4765-A1E0-18D863F32A8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{F9C54B1E-12B3-4B0A-B327-CB46813FAD06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{901F4306-DEBA-44F1-9D62-90B2C4E2B5E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.Todo.Test.Common", "SJCNet.Todo.Test.Common\SJCNet.Todo.Test.Common.csproj", "{43CE0EAC-7A50-4E3F-BEB7-D6E69D5FF8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.Todo.Test.Unit", "SJCNet.Todo.Test.Unit\SJCNet.Todo.Test.Unit.csproj", "{8BE9C469-8924-4BB8-B450-D9847744A7AA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://simoncoope.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SJCNet.Todo.Web\\SJCNet.Todo.Web.csproj
+		SccProjectTopLevelParentUniqueName1 = SJCNet.Todo.sln
+		SccProjectName1 = SJCNet.Todo.Web
+		SccLocalPath1 = SJCNet.Todo.Web
+		SccProjectUniqueName2 = SJCNet.Todo.Model\\SJCNet.Todo.Model.csproj
+		SccProjectTopLevelParentUniqueName2 = SJCNet.Todo.sln
+		SccProjectName2 = SJCNet.Todo.Model
+		SccLocalPath2 = SJCNet.Todo.Model
+		SccProjectUniqueName3 = SJCNet.Todo.Data\\SJCNet.Todo.Data.csproj
+		SccProjectTopLevelParentUniqueName3 = SJCNet.Todo.sln
+		SccProjectName3 = SJCNet.Todo.Data
+		SccLocalPath3 = SJCNet.Todo.Data
+		SccProjectUniqueName4 = SJCNet.Todo.Data.Repository\\SJCNet.Todo.Data.Repository.csproj
+		SccProjectTopLevelParentUniqueName4 = SJCNet.Todo.sln
+		SccProjectName4 = SJCNet.Todo.Data.Repository
+		SccLocalPath4 = SJCNet.Todo.Data.Repository
+		SccProjectUniqueName5 = SJCNet.Todo.Data.Uow\\SJCNet.Todo.Data.Uow.csproj
+		SccProjectTopLevelParentUniqueName5 = SJCNet.Todo.sln
+		SccProjectName5 = SJCNet.Todo.Data.Uow
+		SccLocalPath5 = SJCNet.Todo.Data.Uow
+		SccProjectUniqueName6 = SJCNet.Todo.Test.Common\\SJCNet.Todo.Test.Common.csproj
+		SccProjectTopLevelParentUniqueName6 = SJCNet.Todo.sln
+		SccProjectName6 = SJCNet.Todo.Test.Common
+		SccLocalPath6 = SJCNet.Todo.Test.Common
+		SccProjectUniqueName7 = SJCNet.Todo.Test.Unit\\SJCNet.Todo.Test.Unit.csproj
+		SccProjectTopLevelParentUniqueName7 = SJCNet.Todo.sln
+		SccProjectName7 = SJCNet.Todo.Test.Unit
+		SccLocalPath7 = SJCNet.Todo.Test.Unit
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Standalone|Any CPU = Standalone|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA9566B-325C-4222-984D-9A640344E295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA9566B-325C-4222-984D-9A640344E295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA9566B-325C-4222-984D-9A640344E295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA9566B-325C-4222-984D-9A640344E295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA9566B-325C-4222-984D-9A640344E295}.Standalone|Any CPU.ActiveCfg = Standalone|Any CPU
+		{2AA9566B-325C-4222-984D-9A640344E295}.Standalone|Any CPU.Build.0 = Standalone|Any CPU
+		{82E9B296-D4FA-480A-AAEF-F40D7727574D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E9B296-D4FA-480A-AAEF-F40D7727574D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E9B296-D4FA-480A-AAEF-F40D7727574D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E9B296-D4FA-480A-AAEF-F40D7727574D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E9B296-D4FA-480A-AAEF-F40D7727574D}.Standalone|Any CPU.ActiveCfg = Standalone|Any CPU
+		{82E9B296-D4FA-480A-AAEF-F40D7727574D}.Standalone|Any CPU.Build.0 = Standalone|Any CPU
+		{B3543CD9-4F95-423A-B7FE-4C54F4E4ABB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3543CD9-4F95-423A-B7FE-4C54F4E4ABB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3543CD9-4F95-423A-B7FE-4C54F4E4ABB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3543CD9-4F95-423A-B7FE-4C54F4E4ABB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3543CD9-4F95-423A-B7FE-4C54F4E4ABB3}.Standalone|Any CPU.ActiveCfg = Standalone|Any CPU
+		{B3543CD9-4F95-423A-B7FE-4C54F4E4ABB3}.Standalone|Any CPU.Build.0 = Standalone|Any CPU
+		{D8AEA284-4761-4971-A476-27194B37B9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AEA284-4761-4971-A476-27194B37B9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AEA284-4761-4971-A476-27194B37B9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AEA284-4761-4971-A476-27194B37B9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AEA284-4761-4971-A476-27194B37B9B2}.Standalone|Any CPU.ActiveCfg = Standalone|Any CPU
+		{D8AEA284-4761-4971-A476-27194B37B9B2}.Standalone|Any CPU.Build.0 = Standalone|Any CPU
+		{34209DA7-160F-4765-A1E0-18D863F32A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34209DA7-160F-4765-A1E0-18D863F32A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34209DA7-160F-4765-A1E0-18D863F32A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34209DA7-160F-4765-A1E0-18D863F32A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34209DA7-160F-4765-A1E0-18D863F32A8A}.Standalone|Any CPU.ActiveCfg = Standalone|Any CPU
+		{34209DA7-160F-4765-A1E0-18D863F32A8A}.Standalone|Any CPU.Build.0 = Standalone|Any CPU
+		{43CE0EAC-7A50-4E3F-BEB7-D6E69D5FF8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CE0EAC-7A50-4E3F-BEB7-D6E69D5FF8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CE0EAC-7A50-4E3F-BEB7-D6E69D5FF8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CE0EAC-7A50-4E3F-BEB7-D6E69D5FF8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CE0EAC-7A50-4E3F-BEB7-D6E69D5FF8D3}.Standalone|Any CPU.ActiveCfg = Standalone|Any CPU
+		{43CE0EAC-7A50-4E3F-BEB7-D6E69D5FF8D3}.Standalone|Any CPU.Build.0 = Standalone|Any CPU
+		{8BE9C469-8924-4BB8-B450-D9847744A7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE9C469-8924-4BB8-B450-D9847744A7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE9C469-8924-4BB8-B450-D9847744A7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE9C469-8924-4BB8-B450-D9847744A7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE9C469-8924-4BB8-B450-D9847744A7AA}.Standalone|Any CPU.ActiveCfg = Standalone|Any CPU
+		{8BE9C469-8924-4BB8-B450-D9847744A7AA}.Standalone|Any CPU.Build.0 = Standalone|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AA9566B-325C-4222-984D-9A640344E295} = {F9C54B1E-12B3-4B0A-B327-CB46813FAD06}
+		{82E9B296-D4FA-480A-AAEF-F40D7727574D} = {6CE46985-CE40-4729-B760-86F04DBD4793}
+		{B3543CD9-4F95-423A-B7FE-4C54F4E4ABB3} = {C2926433-6F92-4646-995D-91700E0BB643}
+		{D8AEA284-4761-4971-A476-27194B37B9B2} = {C2926433-6F92-4646-995D-91700E0BB643}
+		{34209DA7-160F-4765-A1E0-18D863F32A8A} = {C2926433-6F92-4646-995D-91700E0BB643}
+		{43CE0EAC-7A50-4E3F-BEB7-D6E69D5FF8D3} = {901F4306-DEBA-44F1-9D62-90B2C4E2B5E2}
+		{8BE9C469-8924-4BB8-B450-D9847744A7AA} = {901F4306-DEBA-44F1-9D62-90B2C4E2B5E2}
+	EndGlobalSection
+EndGlobal
